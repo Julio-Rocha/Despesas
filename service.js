@@ -1,4 +1,4 @@
-const HOST='https://julio-rocha.github.io/Despesas'
+const HOST='https://julio-rocha.github.io/Despesas/'
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
