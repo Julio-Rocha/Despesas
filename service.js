@@ -2,7 +2,7 @@ const HOST='https://julio-rocha.github.io/Despesas/'
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register(`${HOST}/sw.js`)
+    .register(`${HOST}/service.js`)
     .then(function () { console.log('Service Worker Registered'); });
 }
 
