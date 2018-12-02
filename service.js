@@ -17,10 +17,11 @@ var filesToCache = [
   `${HOST}/imagens/icons/icon-256x256.png`,
   `${HOST}/lib/bulma.css`,
   `${HOST}/app.css`,
+  `${HOST}/app.js`,
   `${HOST}/index.html`,
   `${HOST}/store.js`,
-  `${HOST}/todo_e6.js`,
-  `${HOST}/sw.js`,
+  `${HOST}/despesa.js`,
+  `${HOST}/service.js`,
   `${HOST}/manifest.json`
 ];
 
