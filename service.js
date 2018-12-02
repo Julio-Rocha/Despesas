@@ -6,16 +6,15 @@ if ('serviceWorker' in navigator) {
     .then(function () { console.log('Service Worker Registered'); });
 }
 
-var cacheName = 'todo-ap';
+var cacheName = 'despesa';
 var filesToCache = [
-  `${HOST}/imagens/edit.png`,
-  `${HOST}/imagens/remove.png`,
   `${HOST}/imagens/icons/icon-128x128.png`,
   `${HOST}/imagens/icons/icon-144x144.png`,
   `${HOST}/imagens/icons/icon-152x152.png`,
   `${HOST}/imagens/icons/icon-192x192.png`,
   `${HOST}/imagens/icons/icon-256x256.png`,
   `${HOST}/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css`,
+  `${HOST}/lib/jquery-3.3.1.min.js`,
   `${HOST}/app.css`,
   `${HOST}/index.html`,
   `${HOST}/store.js`,
